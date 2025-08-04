@@ -54,8 +54,7 @@ BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact"
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="http://t.me/contact_262524_bot"),
-            InlineKeyboardButton(text="🛠️ Help", url="http://t.me/contact_262524_bot"),
+            InlineKeyboardButton(text="📞 Contact", url="http://t.me/contact_262524_bot"),
         ],
     ]
 )
