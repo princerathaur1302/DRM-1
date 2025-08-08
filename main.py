@@ -382,7 +382,7 @@ async def txt_handler(bot: Client, m: Message):
             name = f'TEAM LB ❤️ {name1[:60]}'
 
             if "childId" in url and "parentId" in url:
-                url = f"https://anonymousrajputplayer-9ab2f2730a02.herokuapp.com/pw?url={url}&token={raw_text4}"
+                url = f"https://anonymouspwplayer-0e5a3f512dec.herokuapp.com/pw?url={url}&token={raw_text4}"
 
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
                 url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
