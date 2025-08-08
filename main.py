@@ -446,12 +446,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n**Contact (Admin) ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n https://youtube.com/@LocalBoyPrince \n '
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n**Contact (Admin) ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n https://youtube.com/@LocalBoyPrince \n '
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n\n**Extracted by - Admin\n\nContact (Admin) ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n\n**Extracted by - Admin\n\nContact (Admin) ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n'
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n\n**Extracted by - Admin\n\nContact (Admin) ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n\n**Extracted by - Admin\n\nContact (Admin) ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n'
+                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n**Contact ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n https://youtube.com/@LocalBoyPrince \n '
+                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n**Contact ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n https://youtube.com/@LocalBoyPrince \n '
+                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n\n**Extracted by ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n' 
+                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n\n**Extracted by ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n'
+                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n\n**Extracted by ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n'
+                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n\n**Extracted by ➤**{CR} \n\n**Join Now...🔻** \n https://t.me/addlist/Yfez5bB2FiljMzE1 \n'
                   
                 if "drive" in url:
                     try:
