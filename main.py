@@ -404,7 +404,7 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** {name1}\n\n<pre><code>**Batch Name :** {b_name}</code></pre>\n**Contact ➤** {CR} \n\n {ALL}   {YT} \n '
+                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** {name1}\n<pre><code>**Batch Name :** {b_name}</code></pre>\n**Contact ➤** {CR} \n\n {ALL}   {YT} \n '
                 cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** {name1}\n\n<pre><code>**Batch Name :** {b_name}</code></pre>\n**Contact ➤** {CR} \n\n {ALL}   {YT} \n '
 
                 if "drive" in url:
