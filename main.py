@@ -47,7 +47,7 @@ bot = Client(
 )
 
 YT = "[𓊈𒆜Y͎O͎U͎T͎U͎B͎E͎𒆜𓊉](https://youtube.com/@LocalBoyPrince)"
-ALL = "[♛A͓̽L͓̽L͓̽ B͓̽A͓̽T͓̽C͓̽H͓̽♛](https://t.me/addlist/Yfez5bB2FiljMzE1)"
+ALL = "[𝙾𝚞𝚛 𝙲𝚘𝚖𝚖𝚞𝚗𝚒𝚝𝚢](https://t.me/addlist/MdRFlsyVA3RiOTE1)"
 
 
 # Inline keyboard for start command
